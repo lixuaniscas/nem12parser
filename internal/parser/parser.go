@@ -2,10 +2,8 @@ package parser
 
 import (
     "bufio"
-    "errors"
     "fmt"
     "io"
-    "log"
     "strconv"
     "strings"
     "sync"
@@ -44,7 +42,6 @@ func ProcessFile(r io.Reader, cfg Config) (*Result, error) {
     var (
         currentNMI       string
         currentIntervalLen int
-        currentIntervalDate time.Time
         malformedLines    []string
         malformedCount    int
         totalValid        int

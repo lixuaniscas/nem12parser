@@ -6,7 +6,7 @@ import (
     "log"
     "os"
 
-    "github.com/lixuaniscas/nem12parser/internal/parser"
+    "nem12parser/internal/parser"
 )
 
 func main() {
