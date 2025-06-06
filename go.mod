@@ -1,3 +1,3 @@
-module github.com/lixuaniscas/nem12parser
+module nem12parser
 
 go 1.23.4
