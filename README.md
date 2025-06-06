@@ -26,7 +26,8 @@ go build -o nem12parser ./cmd/nem12parser
 Run the parser on your `.nem12` input file and output SQL inserts:
 
 ```bash
-./nem12parser -input=path/to/sample.nem12 -output=output.sql
+./nem12parser -input=testdata/sample.nem12 -batch=1000 -workers=4
+
 ```
 
 #### Command-line flags:
