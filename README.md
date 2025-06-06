@@ -11,7 +11,7 @@
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/nem12parser.git
+git clone https://github.com/lixuaniscas/nem12parser.git
 cd nem12parser
 ```
 
